@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 class  Counter extends Component {
     //state contains any data that a specific component needs
     //the return keyword can only return one element
@@ -34,7 +33,7 @@ class  Counter extends Component {
           <div>
               {/* {this.state.tags.length === 0 && 'Please create a new tag!'}
               {this.renderTags()} */}
-    <span className = {this.getBadgeClasses()}> { this.formatCount()}</span>
+    <h1 className = {this.getBadgeClasses()}> { this.formatCount()}</h1>
     <button onClick = {this.handleIncrement} className = "btn btn-secondary btn-sm">Increment</button>
          </div>
         );
