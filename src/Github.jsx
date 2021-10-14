@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import Profile from "./profile";
-import Search from "./search";
-
+import Search from "./components/search";
+import Profile from "./components/profile";
 const API = "https://api.github.com/users";
 
 class Github extends Component {

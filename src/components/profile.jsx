@@ -11,7 +11,7 @@ class Profile extends Component {
       following,
       name,
       username,
-      bio
+      bio,
     } = this.props.userData;
     if (notFound === "Not Found") {
       return (
@@ -29,13 +29,13 @@ class Profile extends Component {
               alt="github profile picture"
             />
             <div>
-              <a href={homeURL} target="_blank">
+              <a href={homeURL} target="_blank" rel="noreferrer">
                 Go to User's Github Home Page.
               </a>
             </div>
             <h2 id="name">{name}</h2>
             <h5 id="username">{username}</h5>
-            <h6 id = "bio">{bio}</h6>
+            <h6 id="bio">{bio}</h6>
           </div>
           <div className="footer">
             <div>
