@@ -25,7 +25,7 @@ class Search extends Component {
               id="search"
               onChange={(event) => this.handleSearch(event.target.value)}
               value={this.state.username}
-              placeholder="Type username here..."
+              placeholder="Type a username to search..."
             />
           </label>
         </form>
