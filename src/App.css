@@ -97,18 +97,21 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: 35px;
   padding: 20px;
 }
 
-
+.profile-block .footer div p:first-child {
+  font-size: 40px;
+  font-weight: bold;
+}
 @media screen and (max-width: 530px) {
-  .profile-block{
+  .profile-block {
     width: 300px;
-padding: 0;
+    padding: 0;
   }
 
-  .profile-block .footer{
+  .profile-block .footer {
     padding: 0;
   }
 }
